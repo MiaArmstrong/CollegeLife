@@ -1,0 +1,18 @@
+Mia Armstrong
+CS163
+Assignment 1
+10/21/2014
+
+Design Write Up
+
+I wrote a program that supports a hint class and a College_Life class. The College_Life class is an ADT featuring 3 separate linear linked lists. In each list node is a hint member object and a integer called likes. There was one linear linked list for each of three categories, registering, supplies, and homework. The program would prompt the user to choose a category or to display all the hints in all the categories. If the user chose a category, another menu would appear and the user could then choose to add a new hint, like an existing hint, or display the hints in that category. If the user likes a hint, the hint is sorted by number of likes, the most likes being at the head of the list. 
+
+I did not get the sort function finished nor did I get my program to compile. I almost worked it out but ran out of time. In the future I need to devote a lot more time to programming assignments. I also need to make time to see the tutors. I finished this program completely on my own and I realize I am lacking in some areas, such as, implementing classes. 
+
+While the three separate linear linked lists were effective at the task I think a different data structure would be more efficient.  I think that an array of three linked lists would have been more efficient. It would have cut down on allocation of pointers and temporary pointers for each list. It would have also saved some on direct access to each list. Since we knew there would only be three categories an array would have been a better choice. 
+
+I think my design efficiently used the memory for the data structure that I chose to implement. I tried to make menu files that would be easy to reuse with other programs and I kept my classes well encapsulated.
+
+If I had more time to solve the problem I would have made an array of linear linked lists and I would have made a sorting algorithm. I would have also made the test bed able to input a file and use the data in the file to test the program. Also, when deciding how to approach this problem I feel like I did it backwards. I wrote the test bed first and I think I should have written the ADT first. Next time I will write the ADT first and then the  data class, and finally, I will write the test bed. I used so much of my time of the test program that I ran out of time and energy to do a good job on the rest of the program. I feel like I will be able to do a much better job on the next programming assignment. I think another key to understanding the assignments is having someone else to talk through the design with. I was confused on a few things that had to do with what was required of the program and how things were supposed to be implemented. I think talking to other people will help me to understand the big picture before becoming caught up in the details. 
+
+Overall I feel that I did a fairly good job on the program for doing it with no outside help. In the future I will be sure to make use of the tutors and the other students in the programming class. I will start my program early and I will allocate more time to programming regularly. I will also start from the ADT and work my way out from there. 
